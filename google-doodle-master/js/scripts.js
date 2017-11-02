@@ -1,0 +1,1 @@
+$('.googlestyle').lettering('');

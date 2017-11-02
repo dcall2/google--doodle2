@@ -1,0 +1,64 @@
+// Grand Central Station
+@import 'google-homepage';
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+.googlestyle{
+  color: red;
+  font-size: 5em;
+  margin: -.5em 0 -.25em 0;
+  font-family: 'Sedgwick Ave Display', cursive;    
+}
+.char1{
+    
+    margin: 10px;
+    color: #4885ed;
+    
+}
+.char2{
+    
+   margin: 5px; 
+   color: #db3236;
+    
+}
+.char3{
+    
+   margin: 5px; 
+   color: #f4c20d    
+    
+}
+.char4{
+    
+   margin: 5px; 
+   color: #4885ed;    
+    
+}
+.char5{
+    
+   margin: 5px; 
+   color:  #3cba54;   
+    
+}
+.char6{
+    
+   margin: 5px; 
+   color: #db3236;
+    
+}
+#stage h1{
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: red;
+  position: absolute;
+  top: -.25em;
+  left: 3.5em;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+/* last frames */
+#stage:hover h1{
+  
+  opacity: 1;
+  
+}
+
+
